@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Test_JNI"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/projects/hah/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test-JNI">
+				<Option output="D:/projects/hah/cmake-build-debug/libTest-JNI.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/hah/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test-JNI"/>
+					<CompileFile command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test-JNI/fast">
+				<Option output="D:/projects/hah/cmake-build-debug/libTest-JNI.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/projects/hah/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/program files/mingw64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 Test-JNI/fast"/>
+					<CompileFile command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/projects/hah/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/projects/hah/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/program files/mingw64/mingw64/bin/mingw32-make.exe -f &quot;D:/projects/hah/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/projects/hah/Hello.h">
+			<Option target="Test-JNI"/>
+		</Unit>
+		<Unit filename="D:/projects/hah/jni.h">
+			<Option target="Test-JNI"/>
+		</Unit>
+		<Unit filename="D:/projects/hah/jni_md.h">
+			<Option target="Test-JNI"/>
+		</Unit>
+		<Unit filename="D:/projects/hah/testJNI.cpp">
+			<Option target="Test-JNI"/>
+		</Unit>
+		<Unit filename="D:/projects/hah/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

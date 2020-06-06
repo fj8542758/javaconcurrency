@@ -1,0 +1,3 @@
+D:/projects/hah/cmake-build-debug/CMakeFiles/Test-JNI.dir
+D:/projects/hah/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/projects/hah/cmake-build-debug/CMakeFiles/rebuild_cache.dir
